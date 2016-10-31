@@ -1,0 +1,46 @@
+/* Resets */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Full height */
+
+body, html, #root {
+  height: 100%;
+}
+
+/* App */
+
+.app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  border: solid 1px black;
+}
+
+.row {
+  border: solid 1px black;
+}
+
+.cell {
+  border: solid 1px black;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cell--selected {
+  background-color: black;
+}
+
+.actions-bar {
+  display: block;
+}
